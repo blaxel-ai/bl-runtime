@@ -1,4 +1,4 @@
-DOCKER_IMAGE=kibaes/onnxruntime-server:1.19.2-linux-cpu
+DOCKER_IMAGE=kibaes/onnxruntime-server:1.26.0-linux-cpu
 
 run:
 	docker rm -f onnx-server || true
